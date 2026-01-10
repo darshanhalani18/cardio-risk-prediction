@@ -3,6 +3,7 @@ import joblib
 import pandas as pd
 from pydantic import BaseModel
 from fastapi.middleware.cors import CORSMiddleware
+from pathlib import Path
 
 app = FastAPI(title="Cardio Risk Prediction API")
 
@@ -14,8 +15,10 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-model = joblib.load("backend/models/cardio_rf_model.pkl")
-scaler = joblib.load("backend/models/cardio_scaler.pkl")
+BASE_DIR = Path(__file__).resolve().parent
+
+model = joblib.load(BASE_DIR / "models/cardio_rf_model.pkl")
+scaler = joblib.load(BASE_DIR / "models/cardio_scaler.pkl")
 
 @app.get("/")
 def root():
