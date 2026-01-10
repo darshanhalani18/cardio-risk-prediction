@@ -1,0 +1,15 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background with rounded corners (Primary blue matching navbar) -->
+  <rect width="32" height="32" rx="6" fill="#3b82f6"/>
+  
+  <!-- ECG Heartbeat Pattern (Activity icon style - cleaner and more visible) -->
+  <path d="M4 22 L7 22 L8 16 L10 22 L13 22 L14 10 L16 22 L19 22 L20 16 L22 22 L25 22 L26 18 L28 22" 
+        stroke="white" 
+        stroke-width="3" 
+        stroke-linecap="round" 
+        stroke-linejoin="round" 
+        fill="none"/>
+  
+  <!-- Pulse point highlight -->
+  <circle cx="14" cy="10" r="2.5" fill="white"/>
+</svg>

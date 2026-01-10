@@ -8,7 +8,7 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Cardio Risk Prediction",
+  title: "CardioRisk - Cardiovascular Risk Prediction",
   description: "Machine Learning based Cardiovascular Disease Risk Prediction",
 };
 
