@@ -8,8 +8,11 @@ import { cn } from "@/lib/utils";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "CardioRisk - Cardiovascular Risk Prediction",
+  title: "CardioRisk",
   description: "Machine Learning based Cardiovascular Disease Risk Prediction",
+  verification:{
+    google:"JjWQ3GfT5gToGizbu7M8Ze5t4n7YjK6Y8tTwGdyamNw"
+  }
 };
 
 export default function RootLayout({
