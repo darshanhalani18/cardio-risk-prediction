@@ -1,4 +1,4 @@
-# 🫀 CardioRisk — Cardiovascular Risk Prediction System  
+# 🫀 CardioRisk — Cardiovascular Risk Prediction System
 
 CardioRisk is a full-stack machine learning application designed to assess cardiovascular disease risk using clinical and lifestyle indicators.  
 The project demonstrates how machine learning models can be integrated into a production-ready web system with a modern user interface and scalable backend.
